@@ -1,13 +1,15 @@
 body {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    padding-top: 10vh;
+    padding-top: 20vh;
 }
 
-
-
+h3 {
+    
+    text-align: center;
+}
 .form_container {
     width: 250px;
-    height: auto;
+    height: 250px;
     padding: 50px;
     background-color: white;
     border-radius: 10px;
@@ -19,9 +21,10 @@ body {
     width: 230px;
     padding-top: 10px;
     margin-top: 10px;
-
 }
 
-.form_container input{
+.login input{
+    margin-top: 10px;
+    margin-left: 90px;
 
 }
