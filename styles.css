@@ -1,12 +1,19 @@
 body {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
-    padding-top: 20vh;
+    padding-top: 19vh;
+}
+
+.form_container {
+    margin-top: -0px;
+    text-align: center;
 }
 
 h3 {
-    
-    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 15px;
+    font-family:Arial, Helvetica, sans-serif;
 }
+
 .form_container {
     width: 250px;
     height: 250px;
@@ -17,14 +24,37 @@ h3 {
     margin: auto;
 }
 
+.loginform {
+    margin-top: -5px;
+}
 .loginform input {
-    width: 230px;
+    
+    width: 245px;
     padding-top: 10px;
     margin-top: 10px;
+    border: none;
+    border-bottom: 1.5px solid rgb(151, 135, 135);
+    outline: none;
 }
 
-.login input{
+
+.login {
     margin-top: 10px;
-    margin-left: 90px;
-
 }
+.login input{
+
+    background-color: #7114dc;
+    color: white;
+    padding: 14px 20px;
+    margin: 10px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    border-radius: 20px;
+   
+}
+
+img {
+    width: 50px
+}
+
