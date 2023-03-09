@@ -1,6 +1,9 @@
 body {
     background-image: linear-gradient(to right, #6a11cb 0%, #2575fc 100%);
+    padding-top: 10vh;
 }
+
+
 
 .form_container {
     width: 250px;
@@ -9,6 +12,7 @@ body {
     background-color: white;
     border-radius: 10px;
     box-shadow: 0 0 10px #000000;
+    margin: auto;
 }
 
 .loginform input {
@@ -19,5 +23,5 @@ body {
 }
 
 .form_container input{
-    justify-content: center;
+
 }
